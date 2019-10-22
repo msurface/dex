@@ -20,7 +20,7 @@
 
 .about-us {
   background-color: #4cd137;
-  clip-path: polygon(0 21%, 100% 4%, 99% 100%, 0% 100%);
+  clip-path: polygon(0 21%, 100% 4%, 100% 79%, 0% 100%);
 }
 
 .about-us h2 {
@@ -36,4 +36,8 @@
 .staff-shop-img {
   height: 15rem;
   width: auto;
+}
+
+.footer li {
+  background-color: #4cd137;
 }
