@@ -1,0 +1,39 @@
+.hero-box {
+  position: relative;
+  z-index: 0;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url('./assets/hero/hero-1.jpg');
+  height: 90vh;
+  background-position: center;
+  background-size: cover;
+  clip-path: polygon(0 0, 100% 0, 100% 79%, 0 100%);
+}
+
+.hero-box h1,
+.hero-box p {
+  color: white;
+}
+
+.services-packages h2 {
+  margin-top: 5rem;
+}
+
+.about-us {
+  background-color: #4cd137;
+  clip-path: polygon(0 21%, 100% 4%, 99% 100%, 0% 100%);
+}
+
+.about-us h2 {
+  /* media query to fix when on mobile */
+  padding-top: 5rem;
+}
+/* TODO - remove image when it hits iphone media query */
+.about-shop-img {
+  height: 15rem;
+  width: auto;
+}
+
+.staff-shop-img {
+  height: 15rem;
+  width: auto;
+}
